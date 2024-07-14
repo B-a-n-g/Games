@@ -6,13 +6,9 @@
 namespace Common{
     template<typename Attribute = Common::Attributes::Empty>
     class Piece{
-        Attribute att;
+        Attribute attribute;
     public:
         Piece() = default;
-
-        ~Piece() = default;
-
-
     };
 }
 
