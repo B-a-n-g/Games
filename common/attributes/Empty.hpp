@@ -1,9 +1,9 @@
-#ifndef Board_hpp
-#define Board_hpp
+#ifndef attributes_Empty_hpp
+#define attributes_Emppty_hpp
 
 namespace Common{
     namespace Attributes{
-        class Empty{};
+        using Empty = nullptr_t;
     }
 }
 
